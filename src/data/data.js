@@ -69,24 +69,24 @@ export const resumes = [
 export const educations = [
   {
     id: 1,
-    year: 'January 2017 - August 2021',
-    universityName: 'American International University-Bangladesh (AIUB)',
-    department: 'Bachelor of Science in Computer Science & Engineering',
-    description: '',
+    year: 'Janvier 2022 - Avril 2022',
+    universityName: 'La Capsule',
+    department: 'Développeur fullstack JS Chef de projet',
+    description: 'Titre RNCP de BAC+4',
   },
   {
     id: 2,
-    year: 'April 2014 - December 2016',
-    universityName: 'Shahmukhdum College, Rajshahi',
-    department: 'Higher Secondary School Certificate',
-    description: '',
+    year: 'Aout 2020 - Mars 2021',
+    universityName: 'NextFormation',
+    department: 'Développeur Web et web Mobile',
+    description: 'Titre RNCP de BAC+2',
   },
   {
     id: 3,
-    year: 'January 2009 - December 2013',
-    universityName: 'Asian School & College, Nachole',
-    department: 'Secondary School Certificate',
-    description: '',
+    year: 'Septembre 2008 - Juin 2009',
+    universityName: 'Université Libre de Liège',
+    department: 'Master en Biotechnologies et Biologie appliquée',
+    description: 'Master II',
   },
 ];
 

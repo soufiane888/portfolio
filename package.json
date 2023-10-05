@@ -32,7 +32,10 @@
     "prod:docker:down": "docker-compose -f docker-compose.prod.yml down"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+    "react-app",
+    "react-app/jest"
+  ]
   },
   "browserslist": {
     "production": [
