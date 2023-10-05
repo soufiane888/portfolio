@@ -9,7 +9,7 @@ const Education = () => {
   return (
     <Box component="header">
       <Typography variant="h4" align="center" className={classes.heading}>
-        Education
+        Mes Formations
       </Typography>
       <Box component="div" className={classes.timeLine}>
         {educations.map((education) => (

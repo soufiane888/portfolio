@@ -93,37 +93,30 @@ export const educations = [
 export const projects = [
   {
     id: 1,
-    image: '/images/todoAppReactWithFirebase.png',
-    name: 'Todo App',
-    description: `This is a simple Todo app. You can store your todo list. Also you can Add, Edit,\
-     Delete and View. As front end I used JavaScript library called 'React'. For designing I used\
-     'Material-UI'. And Realtime Database or Cloud Firestore I used 'Firebase'. That's why the app is \
-     so faster and robust.`,
-    tools: ['javascript', 'react', 'firebase'],
-    live: 'https://react-firebase-todo-app-d37d1.web.app/',
-    source: 'https://github.com/sakilk130/react-firebase-todo-app',
+    image: '/images/memoryGame.png',
+    name: 'Memory Game',
+    description: `Un jeu de mémoire est un jeu de cartes dans lequel le joueur doit trouver des paires de cartes identiques. Le jeu se joue avec un jeu de 20 cartes, dont les faces sont retournées. Le joueur doit retourner deux cartes à la fois et tenter de trouver une paire. Si les cartes ne sont pas identiques, elles sont retournées face cachée.Dès que le joueur click sur la premiere carte le timer de 60 secondes se déclanche, Le jeu se termine lorsque toutes les paires ont été trouvées avant l'ecoulement du timer.`,
+    tools: ['JavaScript', 'React','HTML', 'CSS'],
+    live: 'https://memory-game-blush-eight.vercel.app/',
+    source: 'https://github.com/soufiane888/memory-game',
   },
   {
     id: 2,
     image: '/images/reactWeatherApp.png',
-    name: 'Weather App',
-    description: `This is a Weather app. Where you can search a city and see current weather temperature, \
-    wind speed etc. As front end I used JavaScript library called 'React'. I used 'OpenWeather' APIs For request \
-    data and  display data.`,
-    tools: ['javascript', 'react'],
-    live: 'https://react-weather-app-v1.netlify.app/',
-    source: 'https://github.com/sakilk130/react-weather-app',
+    name: 'Coming Soon',
+    description: ``,
+    tools: ['JavaScript', 'React'],
+    live: '',
+    source: '',
   },
   {
     id: 3,
-    image: '/images/portfolioUsingReact.png',
+    image: '/images/MyPortfolio.png',
     name: 'My Portfolio Website',
-    description: `This is my Portfolio Website. Also this is a part of projects. Where people can see some information \
-    about me. There are 6 pages like Home, Resume, Portfolio, Contacts, Skills and Educations. For this project i \
-    used 'React' for front end and 'Material-UI'.`,
-    tools: ['javascript', 'react'],
-    live: 'https://sakilkhan.netlify.app/',
-    source: 'https://github.com/sakilk130/react-portfolio-website',
+    description: `Ceci est mon site web portfolio. C'est aussi une partie de mes projets. Il permet aux gens de voir des informations sur moi. Il y a 6 pages : Accueil, CV, Portfolio, Contacts, Compétences et Formations. Pour ce projet, j'ai utilisé React pour le front-end et Material-UI.`,
+    tools: ['JavaScript', 'React'],
+    live: 'https://portfolio-soufiane-ochre.vercel.app/',
+    source: 'https://github.com/soufiane888/portfolio',
   },
 ];
 

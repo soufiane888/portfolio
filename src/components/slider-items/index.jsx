@@ -24,12 +24,12 @@ import { heroInfo } from '../../data/data';
 const menuItems = [
   {
     listIcon: <Home />,
-    listText: 'Home',
+    listText: 'Accueil',
     listPath: '/',
   },
   {
     listIcon: <AssignmentInd />,
-    listText: 'Resume',
+    listText: 'CV',
     listPath: '/resume',
   },
   {
@@ -39,12 +39,12 @@ const menuItems = [
   },
   {
     listIcon: <Build />,
-    listText: 'Skills',
+    listText: 'Compétences',
     listPath: '/skills',
   },
   {
     listIcon: <School />,
-    listText: 'Education',
+    listText: 'Formations',
     listPath: '/education',
   },
   {

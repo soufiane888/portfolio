@@ -11,7 +11,7 @@ const Resume = () => {
   return (
     <Box component="header">
       <Typography variant="h4" align="center" className={classes.heading}>
-        Resume
+        Mon CV
       </Typography>
       <Box component="div" className={classes.timeLine}>
         {resumes.map((resume) => (

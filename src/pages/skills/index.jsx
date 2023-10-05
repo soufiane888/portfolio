@@ -17,7 +17,7 @@ const Skills = () => {
   return (
     <Box component="div" className={classes.mainContainer}>
       <Typography variant="h4" align="center" className={classes.heading}>
-        MY SKILLS
+        Mes Compétences
       </Typography>
       <div className={classes.language}>
         <Grid container justify="center">

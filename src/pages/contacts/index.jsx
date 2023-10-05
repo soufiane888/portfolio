@@ -43,7 +43,7 @@ const Contact = () => {
           <form onSubmit={handleOnSubmit}>
             <InputField
               fullWidth={true}
-              label="Name"
+              label="Nom"
               variant="outlined"
               name="name"
               inputProps={{ className: classes.input }}
@@ -51,7 +51,7 @@ const Contact = () => {
             />
             <InputField
               fullWidth={true}
-              label="Email"
+              label="Adresse mail"
               variant="outlined"
               name="email"
               inputProps={{ className: classes.input }}
@@ -88,7 +88,7 @@ const Contact = () => {
                   strokeWidthSecondary={2}
                 />
               ) : (
-                'Contact Me'
+                'Envoyer'
               )}
             </Button>
           </form>

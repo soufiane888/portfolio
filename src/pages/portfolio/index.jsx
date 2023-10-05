@@ -19,7 +19,7 @@ const Portfolio = () => {
   return (
     <Box component="div" className={classes.mainContainer}>
       <Typography variant="h4" align="center" className={classes.heading}>
-        Projects
+        Quelques Projets
       </Typography>
       <Grid container justify="center">
         {projects.map((project) => (
