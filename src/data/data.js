@@ -115,7 +115,7 @@ export const projects = [
     name: 'My Portfolio Website',
     description: `Ceci est mon site web portfolio. C'est aussi une partie de mes projets. Il permet aux gens de voir des informations sur moi. Il y a 6 pages : Accueil, CV, Portfolio, Contacts, Compétences et Formations. Pour ce projet, j'ai utilisé React pour le front-end et Material-UI.`,
     tools: ['JavaScript', 'React'],
-    live: 'https://portfolio-xi-sand-14.vercel.app/portfolio',
+    live: 'https://portfolio-soufiane888.vercel.app/',
     source: 'https://github.com/soufiane888/portfolio',
   },
 ];
